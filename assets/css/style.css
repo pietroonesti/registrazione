@@ -1,0 +1,29 @@
+/*
+Progetto creato da Pietro Onesti 
+data creazione: 17 feb 2024
+Sistema di Login con pattern MVC
+basato sul corso Udemy, "Laravel 9 e 10 con MySql, PHP OOP e MVC"
+*/
+/* 
+    Created on : 17 feb 2024, 10:17:40
+    Author     : pietroonesti
+*/
+body{
+    font-family: 'Lexend Mega', sans-serif;
+}
+nav.navbar, button.btn.btn-block.btn-primary{
+    /*background-color: #7730ff !important;*/
+    /*background-color:gray;*/
+}
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link{
+    color:blue;
+}
+
+label[for="nome"] b {
+    
+    color: red;
+    
+    font-weight: bold;
+    
+}

@@ -1,0 +1,10 @@
+#impedire la vosualizzazione del contenuto delle cartelle
+
+Options All -Indexes
+
+
+#attivazione modulo Rewrite
+RewriteEngine on
+
+#oscuramento dettagli url
+RewriteRule ^(\w+)$ index.php?action=$1
